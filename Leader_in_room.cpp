@@ -13,7 +13,7 @@ int main(){
         }
         m.push_back({s,v});
     }
-    int max = 0;
+    int max = LONG_MIN;
     string lead="";
     for(auto x:m){
         int sum = 0;
